@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2? family= Amita & family= Racing+Sans+One & display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Amita', cursiv;
+    font-size: 18px;
+}
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2a9744;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px 5px 15px;
+}
+
+navbar {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: auto;
+}
+
+navbar a {
+    color: #0dfff7;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+navbar a:hover {
+    color: greenyellow;
+    text-decpration: underline 1px;
+}
+
+footer {
+    min-height: 80px;
+    background-color: #2a9744;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    text-indent: 20px;
+}
+
+table {
+    border: 1px;
+    padding: 20px 20px 10px 10px;
+    color: #192e19;
+}
+
+table th {
+    margin-bottom: 20px;
+    text-indent: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+table td {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 150%;
+    text-indent: 30px;
+}
+
+li {
+    margin-top: 10px;
+    margin-left: 15px;
+    list-style-image: -o-linear-gradient(#2f9a2f84, #9af7108f);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: o;
+    font-family: 'Amita', cursiv;
+    text-shadow: 2px 2px #98f1127b;
+    color: #1c501e;
+}
+
+h1 {
+    font-size: 280%;
+}
+
+section {
+    padding: 90px 15%;
+}
+
+#index {
+    background: linear-gradient(#2b045a88, #00000086), url('../images/5.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hamburger {
+    color: #0dfff7;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: mone !important;
+}
+
+.logo {
+    height: 50px;
+}
+
+.index-info {
+    margin-top: 25vh;
+    text-align: center;
+    transition: 1s;
+}
+
+.index-info h1 {
+    font-size: 350%;
+    color: white;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #6590657d;
+}
+
+.link-index {
+    color: white;
+    text-decoration: underline #215f23;
+    font-size: 20px;
+}
+
+.link-index:hover {
+    color: greenyellow;
+}
+
+.centered {
+    text-align: center;
+}
+
+.vframe {
+    width: 100%;
+    height: 30vw;
+    border: 1px dotted green;
+    box-shadow: 2px yellowgreen grey;
+    transition: 0.8s;
+}
+
+.vframe:hover {
+    filter: contrast(105%) drop-shadow(4px 3px 5px #14c68e);
+    border-radius: 15px;
+    transform: translateX(0px) scale(1.1);
+}
+
+.bg {
+    background: url("../images/boderie.png");
+    height: 72px;
+    background-size: contain;
+}
+
+.loc {
+    overflow: auto;
+    border: 2px double #45ee4b7f;
+    margin-bottom: 15px;
+    box-shadow: 4px 2px greenyellow grey;
+    background-color: #f1e6d878;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all 1s;
+}
+
+.loc:hover {
+    filter: contrast(115%) drop-shadow(4px 3px 5px #6af8cb84);
+    border-radius: 20px;
+    transform: translateX(0px) scale(1.09);
+}
+
+.loc img {
+    max-height: 18vh;
+    width: 20vh;
+    object-fit: cover;
+    border-radius: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.loc img:hover {
+    filter: contrast(115%) drop-shadow(4px 3px 5px #14c68e);
+    border-radius: 20px;
+    transform: translateX(-5px) scale(1.05);
+}
+
+.harta {
+    width: 100%;
+    height: 50vh;
+    border: 4px solid #da9f68;
+    border-radius: 5px;
+}
+
+.cform {
+    border: 2px solid #da9f68;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 890px;
+}
+
+.cform input,
+.cform textarea {
+    width: 100px;
+    font-size: 15px;
+    font-family: inherit;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+}
+
+p::first-letter {
+    font-size: 28px;
+    font-style: bold;
+}
+
+@media (max-width:1100px) {
+    main section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .cform {
+        width: 100%;
+    }
+}
+
+@media (max-width:780px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    main section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 210%;
+    }
+
+    .cform {
+        width: 100%;
+    }
+
+    .vframe {
+        height: 50vh;
+    }
+
+    .hamburger {
+        display: inline-block !important;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    #index {
+        background-position: 45%;
+    }
+
+    .nav {
+        float: none;
+        display: block;
+    }
+    /* .nav a {
+        display: none;
+    } */
+
+    .nav.mobile a {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
